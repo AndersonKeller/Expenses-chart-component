@@ -1,0 +1,12 @@
+header {
+  background-color: var(--color-primary-red);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90%;
+}
+main {
+  background-color: var(--color-brown400);
+  width: 90%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
