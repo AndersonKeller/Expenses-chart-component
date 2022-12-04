@@ -3,6 +3,7 @@ header {
   padding: 1rem;
   border-radius: 0.5rem;
   width: 90%;
+  color: var(--color-brown400);
 }
 main {
   background-color: var(--color-brown400);
@@ -27,9 +28,7 @@ main {
   background-color: var(--color-primary-red);
   cursor: pointer;
 }
-.div-value:hover {
-  border: 1px solid black;
-}
+
 .span-over {
   display: none;
   background-color: var(--color-brown100);
@@ -41,4 +40,20 @@ main {
 }
 .span-over-show {
   display: flex;
+}
+.resume {
+  border-top: 1px solid var(--color-brown300);
+  height: 150px;
+  margin-top: 2rem;
+  color: var(--color-brown100);
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.resume div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
