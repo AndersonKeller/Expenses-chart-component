@@ -151,3 +151,8 @@ main h2 {
 .div-rigth {
   text-align: right;
 }
+.attribution {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+}
