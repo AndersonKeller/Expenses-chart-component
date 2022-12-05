@@ -5,10 +5,9 @@
   list-style: none;
   box-sizing: border-box;
   font-size: 18px;
+  font-family: "DM Sans", sans-serif;
 }
 body {
-  font-family: "DM Sans", sans-serif;
-
   background-color: var(--color-brown300);
   display: flex;
   flex-direction: column;
@@ -21,7 +20,7 @@ body {
   --color-primary-red: #ec775f;
   --color-primary-cyan: #76b5bc;
 
-  --color-brow100: #382314;
+  --color-brown100: #382314;
   --color-brown200: #93867b;
   --color-brown300: #f8e9dd;
   --color-brown400: #fffaf5;
