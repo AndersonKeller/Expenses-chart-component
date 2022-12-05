@@ -1,31 +1,65 @@
 header {
   background-color: var(--color-primary-red);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
   width: 90%;
   color: var(--color-brown400);
   max-width: 600px;
+  position: relative;
+}
+.logo-ball1 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-brown100);
+  border-radius: 50%;
+  position: absolute;
+  right: 24px;
+  top: 30px;
+}
+.logo-ball2 {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--color-brown400);
+  border-radius: 50%;
+  position: absolute;
+  right: 48px;
+  top: 30px;
+}
+h1 {
+  font-size: 0.75rem;
+  font-weight: 400;
 }
 main {
   background-color: var(--color-brown400);
   width: 90%;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   max-width: 600px;
+}
+header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+main h2 {
+  font-size: 1rem;
+  font-weight: 700;
 }
 .div-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 300px;
+  height: 250px;
 }
 .div-main {
-  min-width: 32px;
-  max-width: 50px;
+  min-width: 30px;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
+}
+.div-main span {
+  font-size: 10px;
 }
 @media (min-width: 400px) {
   .div-main {
@@ -48,15 +82,31 @@ main {
   .div-main {
     transition: 0.5s ease;
   }
+  .div-main span {
+    font-size: 12px;
+  }
 }
+@media (min-width: 700px) {
+  .div-main {
+    width: 70px;
+    transition: 0.5s ease;
+  }
+  .div-main span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 699px) {
+  .div-main {
+    transition: 0.5s ease;
+  }
+}
+
 .div-main div {
   background-color: var(--color-primary-red);
   cursor: pointer;
   border-radius: 4px;
 }
-.div-main span {
-  font-size: 10px;
-}
+
 .span-over {
   display: none;
   background-color: var(--color-brown100);
@@ -71,17 +121,31 @@ main {
 }
 .resume {
   border-top: 1px solid var(--color-brown300);
-  height: 150px;
+  height: 100px;
   margin-top: 2rem;
   color: var(--color-brown100);
   display: flex;
 
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.resume div {
+.resume > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
+}
+.resume div p {
+  font-size: 0.75rem;
+  color: var(--color-brown200);
+}
+.resume div h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.resume div h3 {
+  font-size: 0.85rem;
+}
+.div-rigth {
+  text-align: right;
 }

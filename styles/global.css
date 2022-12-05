@@ -5,10 +5,9 @@
   list-style: none;
   box-sizing: border-box;
   font-size: 18px;
+  font-family: "DM Sans", sans-serif;
 }
 body {
-  font-family: "DM Sans", sans-serif;
-
   background-color: var(--color-brown300);
   display: flex;
   flex-direction: column;

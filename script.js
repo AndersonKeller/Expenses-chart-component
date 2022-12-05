@@ -84,6 +84,7 @@ function renderResume() {
   const divLeft = document.createElement("div");
   divLeft.append(p, h2);
   const divRigth = document.createElement("div");
+  divRigth.classList.add("div-rigth");
   divRigth.append(h3, pDif);
 
   resumeDiv.append(divLeft, divRigth);
